@@ -1,2 +1,2 @@
 # clone-instagram-front-end
-Aplicação de conceitos de CSS Flexbox para criação de um clone da interface do Instagram.
+Application of CSS Flexbox concepts to create a clone of the Instagram interface.
