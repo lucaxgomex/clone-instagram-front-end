@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 	text-decoration: none;
 	font-family: sans-serif;
-	font-size: 15px;
+	font-size: 14px;
 }
 
 body {
@@ -19,10 +19,10 @@ body {
 }
 
 .wrapper {
-	display: flex; /*inline*/
-	align-items: center; /*Y*/ 
-	justify-content: start; /*X*/
-	width: 50%;
+	display: flex; /* inline */
+	align-items: center; /* Y */ 
+	justify-content: start; /* X */
+	width: 60%;
 	height: 100vh;
 }
 
@@ -34,13 +34,13 @@ body {
 }
 
 .phone img {
-	height: 40rem;
+	height: 50rem;
 }
 
 .login {
 	display: flex;
-	align-items: center;
-	justify-content: space-around;
+	align-items: center; /* X */
+	justify-content: space-around; /* Y */
 	flex-direction: column;
 	width: 50%;
 	min-width: 34rem;
@@ -49,7 +49,7 @@ body {
 .group {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: center; 
 	flex-direction: column;
 	background-color: #ffffff;
 	width: 100%;
@@ -60,6 +60,7 @@ body {
 .group:nth-child(1) {	
 	min-height: 19rem;
 }
+
 
 .logo {
 	height: 3rem;
@@ -73,16 +74,17 @@ body {
 	overflow: hidden;
 }
 
+
 .profile-photo img {
-	height: 7rem;
+	height: 6rem;
 }
  
+
 .i-login {
 	background-color: #0095f6;
 	color: #ffffff;
 	padding: 8px;
 	border-radius: 4px;
-	font-family: Arial, Ubuntu Mono;
 }
 
 .i-logout {
